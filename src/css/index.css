@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply !bg-black select-none font-primary scroll-smooth;
+    }
+
+    .transitions {
+        @apply transition-all duration-500 ease-in-out;
+    }
+
+
+    .btn-primary {
+        @apply px-[60px] py-[16px] text-sm bg-yellow text-black rounded-sm;
+    }
+
+    .btn-secondary {
+        @apply text-white bg-[#2E1D6A] rounded-[16px] px-[18px] py-[12px] font-bold text-sm transition duration-300 ease-linear border hover:bg-white hover:border-[#2E1D6A] hover:text-[#2E1D6A];
+    }
+
+    .padding-inline {
+        @apply sm:px-[32px] px-[28px];
+    }
+
+    .custom-width {
+        @apply xl:max-w-[1150px] 2xl:max-w-[1140px] lg:max-w-[940px] md:max-w-[778px] lg:px-0 px-8 mx-auto w-full md:px-[20px];
+
+    }
+
+    .custom-padding {
+        @apply xl:px-[90px] lg:px-[90px] px-[25px];
+    }
+
+    .padding-block {
+        @apply md:my-[120px] my-[80px];
+    }
+}
+

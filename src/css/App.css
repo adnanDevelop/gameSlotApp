@@ -1,0 +1,18 @@
+.polygon {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 70%);
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border: 2px solid black;
+    border-radius: 1rem;
+    background: linear-gradient(to left, #FFDD15, #FCB346);
+    /* background: linear-gradient(to left, #01D370, #016D3A); */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black;
+}
